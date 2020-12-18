@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="524.1120261984393" y="864.0">SetOfRecipes</node>
+    <node x="0.0" y="1678.0">AddNetRecipe</node>
+    <node x="1105.7905976270108" y="283.0">Recipe</node>
+    <node x="664.8304551879279" y="536.0">NetRecipe</node>
+    <node x="407.3518315018313" y="337.0">Criteria</node>
+    <node x="1137.7130897634972" y="831.0">PrivateCollection</node>
+    <node x="356.67631191272494" y="569.0">SetOfCriteria</node>
+    <node x="1061.9875691790094" y="0.0">Catalog</node>
+    <node x="392.9999999999999" y="1678.0">ChangeNetRecipe</node>
+    <node x="587.6953595317726" y="1992.0">Injector</node>
+    <node x="536.5839977504379" y="1134.0">GeneralCollection</node>
+    <node x="187.9999999999999" y="1667.0">UploadNetRecipe</node>
+    <node x="773.1120261984393" y="842.0">ErrorMessage</node>
+    <node x="577.6953595317726" y="2095.0">Main</node>
+    <node x="868.7120261984392" y="1569.0">ManagerMenuUI</node>
+    <node x="284.9166666666665" y="1201.0">MenuCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ManagerMenuUI" target="GeneralCollection">
+      <point x="-51.46153846153845" y="-156.5" />
+      <point x="928.7504877369008" y="1499.0" />
+      <point x="770.5839977504379" y="1499.0" />
+      <point x="78.0" y="157.5" />
+    </edge>
+    <edge source="Injector" target="UploadNetRecipe">
+      <point x="-26.458333333333485" y="-26.5" />
+      <point x="624.7370261984391" y="1942.0" />
+      <point x="326.7499999999999" y="1942.0" />
+      <point x="46.25" y="58.5" />
+    </edge>
+    <edge source="Catalog" target="Recipe">
+      <point x="46.24999999999997" y="91.5" />
+      <point x="1200.7375691790094" y="263.0" />
+      <point x="1227.0405976270108" y="263.0" />
+      <point x="24.25" y="-91.5" />
+    </edge>
+    <edge source="ErrorMessage" target="ErrorMessage">
+      <point x="-100.8" y="80.5" />
+      <point x="798.3120261984393" y="1023.0" />
+      <point x="753.1120261984393" y="1023.0" />
+      <point x="753.1120261984393" y="922.5" />
+      <point x="-126.0" y="-0.0" />
+    </edge>
+    <edge source="GeneralCollection" target="NetRecipe">
+      <point x="-15.599999999999966" y="-157.5" />
+      <point x="676.983997750438" y="1064.0" />
+      <point x="731.6120261984393" y="1064.0" />
+      <point x="731.6120261984393" y="801.0" />
+      <point x="761.8304551879279" y="801.0" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="PrivateCollection" target="Catalog">
+      <point x="76.125" y="-91.5" />
+      <point x="1315.3380897634972" y="811.0" />
+      <point x="1310.2905976270108" y="811.0" />
+      <point x="1310.2905976270108" y="243.0" />
+      <point x="1237.7375691790094" y="243.0" />
+      <point x="83.24999999999997" y="91.5" />
+    </edge>
+    <edge source="Injector" target="PrivateCollection">
+      <point x="47.625" y="-26.5" />
+      <point x="698.8203595317726" y="1962.0" />
+      <point x="1295.6714230968305" y="1962.0" />
+      <point x="1295.6714230968305" y="1104.0" />
+      <point x="1302.6505897634972" y="1104.0" />
+      <point x="63.4375" y="91.5" />
+    </edge>
+    <edge source="Injector" target="GeneralCollection">
+      <point x="15.875" y="-26.5" />
+      <point x="667.0703595317726" y="1932.0" />
+      <point x="690.4036928651059" y="1932.0" />
+      <point x="690.4036928651059" y="1539.0" />
+      <point x="666.5839977504379" y="1539.0" />
+      <point x="-26.0" y="157.5" />
+    </edge>
+    <edge source="GeneralCollection" target="SetOfRecipes">
+      <point x="-46.799999999999955" y="-157.5" />
+      <point x="645.783997750438" y="1054.0" />
+      <point x="688.278692865106" y="1054.0" />
+      <point x="65.66666666666669" y="58.5" />
+    </edge>
+    <edge source="Injector" target="ChangeNetRecipe">
+      <point x="-15.875" y="-26.5" />
+      <point x="635.3203595317726" y="1932.0" />
+      <point x="439.7499999999999" y="1932.0" />
+      <point x="-46.75" y="47.5" />
+    </edge>
+    <edge source="SetOfRecipes" target="NetRecipe">
+      <point x="73.875" y="-58.5" />
+      <point x="696.4870261984393" y="791.0" />
+      <point x="734.1161694736422" y="791.0" />
+      <point x="-27.714285714285722" y="102.5" />
+    </edge>
+    <edge source="NetRecipe" target="Catalog">
+      <point x="-64.66666666666669" y="-102.5" />
+      <point x="697.1637885212613" y="516.0" />
+      <point x="695.6851648351646" y="516.0" />
+      <point x="695.6851648351646" y="233.0" />
+      <point x="1108.2375691790094" y="233.0" />
+      <point x="-46.25" y="91.5" />
+    </edge>
+    <edge source="ManagerMenuUI" target="ErrorMessage">
+      <point x="0.0" y="-156.5" />
+      <point x="980.2120261984392" y="1549.0" />
+      <point x="989.2656488891544" y="1549.0" />
+      <point x="989.2656488891544" y="1094.0" />
+      <point x="999.9120261984392" y="1094.0" />
+      <point x="100.79999999999995" y="80.5" />
+    </edge>
+    <edge source="AddNetRecipe" target="MenuCommand">
+      <point x="42.0" y="-47.5" />
+      <point x="126.0" y="1529.0" />
+      <point x="334.08333333333326" y="1529.0" />
+      <point x="-39.33333333333326" y="90.5" />
+    </edge>
+    <edge source="ManagerMenuUI" target="MenuCommand">
+      <point x="-102.9230769230769" y="-156.5" />
+      <point x="877.2889492753623" y="1529.0" />
+      <point x="432.4166666666665" y="1529.0" />
+      <point x="59.0" y="90.5" />
+    </edge>
+    <edge source="SetOfCriteria" target="SetOfCriteria">
+      <point x="-94.79999999999995" y="69.5" />
+      <point x="380.376311912725" y="728.0" />
+      <point x="336.67631191272494" y="728.0" />
+      <point x="336.67631191272494" y="638.5" />
+      <point x="-118.5" y="-0.0" />
+    </edge>
+    <edge source="SetOfRecipes" target="SetOfCriteria">
+      <point x="-24.625" y="-58.5" />
+      <point x="597.9870261984393" y="811.0" />
+      <point x="569.9763119127249" y="811.0" />
+      <point x="94.80000000000001" y="69.5" />
+    </edge>
+    <edge source="GeneralCollection" target="GeneralCollection">
+      <point x="-130.0" y="157.5" />
+      <point x="562.5839977504379" y="1469.0" />
+      <point x="516.5839977504379" y="1469.0" />
+      <point x="516.5839977504379" y="1291.5" />
+      <point x="-156.0" y="-0.0" />
+    </edge>
+    <edge source="Injector" target="AddNetRecipe">
+      <point x="-58.208333333333485" y="-26.5" />
+      <point x="592.9870261984391" y="1972.0" />
+      <point x="42.0" y="1972.0" />
+      <point x="-42.0" y="47.5" />
+    </edge>
+    <edge source="Catalog" target="Catalog">
+      <point x="-83.25" y="91.5" />
+      <point x="1071.2375691790094" y="203.0" />
+      <point x="1041.9875691790094" y="203.0" />
+      <point x="1041.9875691790094" y="137.25" />
+      <point x="-92.5" y="45.75" />
+    </edge>
+    <edge source="Recipe" target="Catalog">
+      <point x="-72.75" y="-91.5" />
+      <point x="1130.0405976270108" y="263.0" />
+      <point x="1163.7375691790094" y="263.0" />
+      <point x="9.25" y="91.5" />
+    </edge>
+    <edge source="GeneralCollection" target="SetOfCriteria">
+      <point x="-140.39999999999992" y="-157.5" />
+      <point x="552.183997750438" y="1114.0" />
+      <point x="441.188811912725" y="1114.0" />
+      <point x="441.188811912725" y="811.0" />
+      <point x="427.77631191272496" y="811.0" />
+      <point x="-47.39999999999998" y="69.5" />
+    </edge>
+    <edge source="ChangeNetRecipe" target="MenuCommand">
+      <point x="46.75" y="-47.5" />
+      <point x="533.2499999999999" y="1539.0" />
+      <point x="412.7499999999998" y="1539.0" />
+      <point x="39.33333333333326" y="90.5" />
+    </edge>
+    <edge source="MenuCommand" target="MenuCommand">
+      <point x="-78.66666666666663" y="90.5" />
+      <point x="294.7499999999999" y="1402.0" />
+      <point x="264.9166666666665" y="1402.0" />
+      <point x="264.9166666666665" y="1291.5" />
+      <point x="-88.5" y="-0.0" />
+    </edge>
+    <edge source="PrivateCollection" target="PrivateCollection">
+      <point x="-88.8125" y="91.5" />
+      <point x="1150.4005897634972" y="1034.0" />
+      <point x="1117.7130897634972" y="1034.0" />
+      <point x="1117.7130897634972" y="922.5" />
+      <point x="-101.5" y="-0.0" />
+    </edge>
+    <edge source="ManagerMenuUI" target="ManagerMenuUI">
+      <point x="-74.33333333333333" y="156.5" />
+      <point x="905.8786928651059" y="1902.0" />
+      <point x="848.7120261984392" y="1902.0" />
+      <point x="848.7120261984392" y="1725.5" />
+      <point x="-111.5" y="-0.0" />
+    </edge>
+    <edge source="Criteria" target="Criteria">
+      <point x="-35.333333333333314" y="37.5" />
+      <point x="425.018498168498" y="432.0" />
+      <point x="387.3518315018314" y="432.0" />
+      <point x="387.3518315018314" y="374.5" />
+      <point x="-53.0" y="-0.0" />
+    </edge>
+    <edge source="Recipe" target="Recipe">
+      <point x="-77.6" y="91.5" />
+      <point x="1125.1905976270107" y="486.0" />
+      <point x="1085.7905976270108" y="486.0" />
+      <point x="1085.7905976270108" y="374.5" />
+      <point x="-97.0" y="-0.0" />
+    </edge>
+    <edge source="PrivateCollection" target="Recipe">
+      <point x="-25.375" y="-91.5" />
+      <point x="1213.8380897634972" y="811.0" />
+      <point x="1255.4905976270106" y="811.0" />
+      <point x="1255.4905976270106" y="516.0" />
+      <point x="1241.5905976270105" y="516.0" />
+      <point x="38.799999999999955" y="91.5" />
+    </edge>
+    <edge source="UploadNetRecipe" target="MenuCommand">
+      <point x="46.25" y="-58.5" />
+      <point x="326.7499999999999" y="1549.0" />
+      <point x="373.4166666666665" y="1549.0" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="SetOfRecipes" target="SetOfRecipes">
+      <point x="-65.66666666666669" y="58.5" />
+      <point x="556.9453595317725" y="1001.0" />
+      <point x="504.11202619843925" y="1001.0" />
+      <point x="504.11202619843925" y="922.5" />
+      <point x="-98.5" y="-0.0" />
+    </edge>
+    <edge source="SetOfCriteria" target="Criteria">
+      <point x="59.25" y="-69.5" />
+      <point x="534.4263119127249" y="516.0" />
+      <point x="495.68516483516464" y="516.0" />
+      <point x="35.33333333333334" y="37.5" />
+    </edge>
+    <edge source="ManagerMenuUI" target="PrivateCollection">
+      <point x="68.61538461538464" y="-156.5" />
+      <point x="1048.827410813824" y="1529.0" />
+      <point x="1233.6209025123428" y="1529.0" />
+      <point x="1233.6209025123428" y="1114.0" />
+      <point x="1226.5255897634972" y="1114.0" />
+      <point x="-12.6875" y="91.5" />
+    </edge>
+    <edge source="NetRecipe" target="Recipe">
+      <point x="64.66666666666663" y="-102.5" />
+      <point x="826.4971218545945" y="506.0" />
+      <point x="1163.9905976270106" y="506.0" />
+      <point x="-38.799999999999955" y="91.5" />
+    </edge>
+    <edge source="NetRecipe" target="NetRecipe">
+      <point x="-83.14285714285714" y="102.5" />
+      <point x="678.6875980450708" y="761.0" />
+      <point x="644.8304551879279" y="761.0" />
+      <point x="644.8304551879279" y="638.5" />
+      <point x="-97.0" y="-0.0" />
+    </edge>
+    <edge source="Main" target="Injector">
+      <point x="-36.75" y="-26.5" />
+      <point x="614.4453595317726" y="2070.0" />
+      <point x="619.4453595317726" y="2070.0" />
+      <point x="-31.75" y="26.5" />
+    </edge>
+    <edge source="Injector" target="ManagerMenuUI">
+      <point x="37.04166666666674" y="-26.5" />
+      <point x="688.2370261984394" y="1952.0" />
+      <point x="1054.5453595317726" y="1952.0" />
+      <point x="74.33333333333337" y="156.5" />
+    </edge>
+    <edge source="GeneralCollection" target="ErrorMessage">
+      <point x="78.0" y="-157.5" />
+      <point x="770.5839977504379" y="1094.0" />
+      <point x="899.1120261984393" y="1094.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="GeneralCollection" target="PrivateCollection">
+      <point x="140.39999999999998" y="-157.5" />
+      <point x="832.9839977504379" y="1114.0" />
+      <point x="1201.1505897634972" y="1114.0" />
+      <point x="-38.0625" y="91.5" />
+    </edge>
+    <edge source="ManagerMenuUI" target="NetRecipe">
+      <point x="17.15384615384619" y="-156.5" />
+      <point x="997.3658723522854" y="1499.0" />
+      <point x="1035.6120261984393" y="1499.0" />
+      <point x="1035.6120261984393" y="811.0" />
+      <point x="817.2590266164993" y="811.0" />
+      <point x="55.428571428571445" y="102.5" />
+    </edge>
+    <edge source="ManagerMenuUI" target="Recipe">
+      <point x="51.46153846153845" y="-156.5" />
+      <point x="1031.6735646599777" y="1519.0" />
+      <point x="1064.2905976270108" y="1519.0" />
+      <point x="1064.2905976270108" y="516.0" />
+      <point x="1202.7905976270108" y="516.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="697.8395061728395" y="1680.0851851851849" />
+  <SelectedNodes>
+    <node>ChangeNetRecipe</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
